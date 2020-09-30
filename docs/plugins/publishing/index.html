@@ -73,6 +73,8 @@ NPM.</p>
 out a new branch that you will use for the release, e.g.</p>
 <pre><code class="hljs css language-sh">$ git checkout -b new-release
 </code></pre>
+<p>First bump the <code>CHANGELOG.md</code> in the root of the repo and commit. You bump it by
+adding a header for the new version just below the <code>## Next Release</code> one.</p>
 <p>Then, from the root of the repo, run</p>
 <pre><code class="hljs css language-sh">$ yarn release
 </code></pre>
